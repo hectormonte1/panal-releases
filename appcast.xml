@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Panal</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Tue, 13 Oct 2026 21:41:43 -0600</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Panal 1.0.1
+
+- Respeta los límites de tamaño de las ventanas nativas: consulta AX y mide el tamaño aceptado cuando la app no lo expone.
+- Busca espacio en otra columna y utiliza pestañas si no cabe. Las ventanas que siguen sin caber se representan como miniaturas y se pueden abrir temporalmente al mínimo.
+- Las ventanas web propias ya no tienen el mínimo impuesto de 320 × 240.
+- Conserva las ventanas web al salir y al volver a abrir Panal.
+- Incluye lienzo, miniaturas en vivo, espacios anidados, acople, pestañas entre apps, vistas guardadas, exclusiones, atajos y URLs panal://.
+
+**No notarizada**: conserva la firma local Copi Dev y las actualizaciones firmadas de Sparkle. La validación de Apple queda pendiente de la membresía Apple Developer. macOS puede impedir la primera apertura en otras Macs. No se cambian las protecciones del sistema.
+
+La autenticación de Claude/ChatGPT depende del proveedor. Abrir el navegador no transfiere su sesión a las ventanas web. No se ha comprobado una sesión autenticada, el gesto físico de pellizco ni todos los casos multimonitor. Los límites de una app pueden cambiar según su contenido.
+]]></description>
+            <enclosure url="https://github.com/hectormonte1/panal-releases/releases/download/v1.0.1/Panal-1.0.1.dmg" length="1997559" type="application/octet-stream" sparkle:edSignature="cHQj1Et6ca5YQDSLM9M0HHKAdafx1E/gzejNHK2631Wwx2zh+uMlyqvMJZRMu1geyEz/YvNn4bSqh/OH0h3LBw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: MtE2j2xgZWcK1kw4TKECFvw/zjz43fZrk5k2NUFmIXwzn5HNRb6lVcORLxgfXK1OcEy3JmPjDSxtu0kZ6xfQDw==
+length: 2357
+-->

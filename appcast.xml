@@ -1,8 +1,30 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Panal</title>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Tue, 13 Oct 2026 21:59:55 -0600</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Panal 1.0.2
+
+- Nuevo menú «Restaurar ventana», accesible también con teclado, para recuperar ventanas minimizadas.
+- Mejora la lectura de la posición al terminar un arrastre en apps que responden a Accesibilidad con retraso.
+- Conserva el manejo de tamaños mínimos, columnas, pestañas, miniaturas temporales y ventanas web sin el mínimo impuesto de versiones anteriores.
+- Conserva firma, permisos, sesiones web y acomodo al actualizar. Feed y DMG firmados con Sparkle; actualizaciones automáticas disponibles.
+
+**No notarizada**: la membresía Apple Developer sigue pendiente. Se mantiene la identidad local Copi Dev; no se modifican las protecciones del sistema. macOS puede impedir la primera apertura en otra Mac.
+
+Las comprobaciones realizadas incluyen mínimos de Safari, Finder, Notas, WhatsApp y Claude, restauración de Notas desde el menú, espacios anidados y actualización pública con Sparkle. No se afirma validación completa del pellizco físico, todos los escenarios multimonitor ni sesiones autenticadas de Claude/ChatGPT. La devolución temporal al soltar requiere todavía una comprobación manual concluyente.
+]]></description>
+            <enclosure url="https://github.com/hectormonte1/panal-releases/releases/download/v1.0.2/Panal-1.0.2.dmg" length="2014504" type="application/octet-stream" sparkle:edSignature="uUA6KRmwPmxDBP/QqpedCyCe1lEgBIuI6kDuLf+lHe0aoPaa91O2yYfcSeiggDtzCL4FhGe+nEyR8F61NlPiDA=="/>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Tue, 13 Oct 2026 21:41:43 -0600</pubDate>
@@ -22,10 +44,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 La autenticación de Claude/ChatGPT depende del proveedor. Abrir el navegador no transfiere su sesión a las ventanas web. No se ha comprobado una sesión autenticada, el gesto físico de pellizco ni todos los casos multimonitor. Los límites de una app pueden cambiar según su contenido.
 ]]></description>
-            <enclosure url="https://github.com/hectormonte1/panal-releases/releases/download/v1.0.1/Panal-1.0.1.dmg" length="1997559" type="application/octet-stream" sparkle:edSignature="cHQj1Et6ca5YQDSLM9M0HHKAdafx1E/gzejNHK2631Wwx2zh+uMlyqvMJZRMu1geyEz/YvNn4bSqh/OH0h3LBw=="></enclosure>
+            <enclosure url="https://github.com/hectormonte1/panal-releases/releases/download/v1.0.1/Panal-1.0.1.dmg" length="1997559" type="application/octet-stream" sparkle:edSignature="cHQj1Et6ca5YQDSLM9M0HHKAdafx1E/gzejNHK2631Wwx2zh+uMlyqvMJZRMu1geyEz/YvNn4bSqh/OH0h3LBw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: MtE2j2xgZWcK1kw4TKECFvw/zjz43fZrk5k2NUFmIXwzn5HNRb6lVcORLxgfXK1OcEy3JmPjDSxtu0kZ6xfQDw==
-length: 2357
+</rss>
+<!-- sparkle-signatures:
+edSignature: KmOoIfM5DdIsyOdYWr/pM7FFkdv9BqpAe8JhnAEgni+4Y89PejSOnm2Bh6m4WW6IXMVke8wzEJqkF81uzkVeAw==
+length: 4258
 -->

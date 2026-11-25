@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Panal</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Wed, 25 Nov 2026 13:07:27 -0600</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Panal 1.0.3
+
+- Firmada y notarizada por Apple: se instala y se abre sin avisos de seguridad de macOS.
+- Si actualizas desde una versión anterior, es posible que macOS te pida volver a activar una vez Accesibilidad y Grabación de pantalla para Panal.
+- Conserva tus sesiones web y tu acomodo al actualizar.
+]]></description>
+            <enclosure url="https://github.com/hectormonte1/panal-releases/releases/download/v1.0.3/Panal-1.0.3.dmg" length="2064612" type="application/octet-stream" sparkle:edSignature="mRlpbQ6HQtQJFwUd2/Rl3eXM43FV42qSd9od5RTXU+ECNDjHZrvBID1aKshzYww556TLMaKflIhfJ9V8e+OEAw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Tue, 13 Oct 2026 21:59:55 -0600</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -40,6 +55,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KmOoIfM5DdIsyOdYWr/pM7FFkdv9BqpAe8JhnAEgni+4Y89PejSOnm2Bh6m4WW6IXMVke8wzEJqkF81uzkVeAw==
-length: 4258
+edSignature: 7OlkU3QlmTG3pu9FVhr8jYiFkbykUM7g1uPKSUOR5uws588gHxnI812F0ow4yGxYHVVgl8pgwosgnTVBMPlUBQ==
+length: 3850
 -->

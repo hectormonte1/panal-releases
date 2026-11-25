@@ -1,2 +1,5 @@
-# panal-releases
-Descargas de Panal para macOS; publicación pendiente de validación y notarización
+# Panal
+
+Descargas de Panal para macOS.
+
+- [Última versión](https://github.com/hectormonte1/panal-releases/releases/latest)
